@@ -1,0 +1,10 @@
+name: AutoReport
+version: '${project.version}'
+main: me.xiung.autoreport.AutoReport
+api-version: 1.17
+commands:
+  report:
+    usage: /<command> <player> <reason>
+    description: Report player.
+    permission: autoreport.report
+    permission-message: "你沒有權限這麼做."

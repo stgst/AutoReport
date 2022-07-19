@@ -1,0 +1,8 @@
+Discord:
+  Token: "BOT-TOKEN"
+  ReportCH: "Report Channel ID."
+
+Buttons:
+  ban7d: "cmi tempban {player} 7d {reason} "
+  mute1h: "cmi mute {player} {reason} 1h"
+  cancel: "lp user {player} permission set autoreport.report false"
